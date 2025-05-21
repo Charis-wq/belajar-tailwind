@@ -1,0 +1,81 @@
+TAILWIND CSS
+
+Apa itu Tailwind?
+tailwind css adalah  framework css yang bersifat utility-first
+framewrok ini menyediakan kelas-kelas siap pakai yang dapat langsung digunakan 
+dan untuk mengatur desain sebuah element tanpa perlu menulis code css secara manual.
+
+Warna dasar 
+tailwind css menyediakan berbagai utilitas warna yang memudahkan kita untuk mengatur warna 
+seperti latar belakang,teks,border,shadow hingga efek hover dengan mudah dan konsisten
+dalam tailwind warna sendiri sudah di kasifikasikan kedalam sekala warna (shade) seperti 50,100 hingga 
+900 
+dimana angaka yang lebih rendah adalah warna yang lebih terang sedangkan angka yang lebih tinggi adalah warna yang gelap.
+
+Container
+container adalah elemen yang digunakan untuk membatasi lebar konten agar tidak mememnuhi seluruh lebar layar
+calss di container di tailwind secara otomatis akan menyesuakan lebar elemen berdasarkan breakpoint yang telah di tentukan 
+
+-membuat layout yang rapi dan terpusat 
+-menyesuakan lebar elemen berdasarkan ukuran layar (responsif)
+-mencegah konten meluas hingga tepi layar
+
+breakpoint              maxWidth
+sm(small)                640px
+md(medium)               780px
+lg(large)                1024px
+xl(extra large)          1280px
+2xl(extra extra large)   1536px
+
+Padding digunakan untuk memberi jarak antara konten didalam elemen dan tepi elemen tersebut
+p-* : padding di semua sisi
+pt-*: padding top
+pb-*: padding bottom
+pl-*: paddimg left
+pr-*: padding right
+px-*: padding horizontal (left+right)
+py-*: pedding vertical (top+bottom)
+
+Margin
+margin digunakan untuk memberikan jarak antara elemen dengan elemen lain di sekitarnya
+
+m-* : margin di semua sisi
+mt-*: margin top
+mb-*: margin bottom
+ml-*: margin left
+mr-*: margin right
+mx-*: margin horizontal (left+right)
+my-*: margin vertical (top+bottom)
+
+Typography
+typography adalah bagian penting dalam desain web karena mempengaruhi cara pengguna membaca dan memahami konten
+tailwind menyediakan berbagai utility class yang memudahkan kita untuk mengatur font size,font weigth,text aligment,line hight dan decoration
+
+Width dan Height
+width digunakan untuk mengatur lebar dari sebuah elemen tailwind menyediakan banyak opsi ukuran mulai dari sekala pixsel presentase skala fraksional dan otomatis
+height digunakan untuk mengatur tinggi dari sebuah elemen sama seerti width height juga tersedia dalam berbagai ukuran
+
+background
+utility class dari background adalah bg- background di gunakan untuk mengatur warna background gambar background dan posisibackground pada elemen
+
+Border dan Border Radius
+didalam tailwind kita dapat dengan mudah mengatur property border dengan utility class border- dan border-radius dengan rounded- menggunakan utility class 
+ini membantu kita untuk menambahkan gaya seperti garis tepi,ketebalan,warna dan sudut membulat tanpa perlu menuliskan kode css manual
+
+Shadow 
+shadow di tailwind digunakan untuk memberikan efek bayangan pada elemen baik untuk menambah dimensi (depth)
+atau menciptakan tampilan yang lebih menarik atau modern 
+dengan utility class bawaan tailwind anda bisa menambahkan berbagai variasi shadow dengan sangat mudah termasuk shadow kecil,besar hingga efek yang dramatis
+
+Opacity
+opacity adalah tingkat transparansi suatu elemen nilai opacity berkisar sari 0 (transparansi sepenuhnya) hingga 1(tidak transparansi) 
+tailwind menyediakan class opacity-[value] untuk mengatur transparansi elemen
+
+Cursor dan Select
+cursor dalam css adalah property yang digunakan untuk mengubah tampilan kursor mouse ketika user mengarahkannya ke suatu elemen 
+tailwind menyediakan utility class-* untuk mengubah tampilan kursor saat user berinteraksi dengan elemen 
+select dalam css digunakan untuk menentukan apakah teks dalam suatu elemen dapat dipilih oleh user atau tidak
+tailwind menyediakan utility class select-* untuk mengontrol apakah teks bisa dipilih oleh pengguna atau tidak 
+Pseudo-class
+pseudo-class dalam tailwind memungkinkan kita mengubah tampilan elemen berdasarkan kondisi tertentu seperti hover,focus,first-child,last-child dan lain sebagainya
+tailwind menyediakan banyak utility class berbasis pseudo-class untuk meningkatkan interraktivitas tanpa menulis css tambahan  

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+      </style>
+    <style type="text/tailwindcss">
+        :root {
+            --my-padding: 20px;
+            --my-margin: 20px;
+            --my-opacity: 0.56;
+            --color-background1: #da373d;
+            --color-background2: #f0f0f0;
+            --spacing: 2px;
+            --font-Roboto: 'Roboto Condensed', sans-serif;
+        }
+      </style>
+    <title>Document</title>
+</head>
+ <body>
+    <!--container-->
+
+    <div class="container bg-red-500 mx-auto text-center font-semibold">Ini Container!</div>
+
+    <!--color-->
+ <h1 class="text-3xl font-bold underline bg-background1 p-4 bottom-1 text-white border-slate-500 border-4   justify-center text-center ">
+        Hello world!
+      </h1>
+
+      <!--padding dan margin-->
+
+   <div class="bg-cyan-500 text-white pl-20 my-20">padding 1</div>
+      <div class="bg-amber-500 pb-[20px] p-[25px]  py-[20px]">padding 2</div>
+      <div class="bg-blue-500 pl-(--my-padding) my-(--my-margin)">padding 3</div>
+
+      <!--typography-->
+
+      <div class="font-Roboto text-9xl m-20">Hello Guys</div>
+
+    <div class="font-Roboto text-xl bg-orange-500 justify-center align-baseline items-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem excepturi neque distinctio, non soluta architecto. Nisi, sapiente labore doloribus aut repellendus error dignissimos et neque, omnis officiis voluptatum fugit sed?</div>
+
+      <p class="underline decoration-cyan-600 tracking-tighter text-center">underline</p>    
+      <p class="overline decoration-blue-500 tracking-tight text-left">overline</p>    
+      <p class="line-through decoration-red-500 tracking-wide text-right"> line thourh</p>    
+
+      <!--width and hight-->
+     <div class="bg-blue-500 w-645 h-100 text-center p-50   m-20">width and hight</div>
+      <div class="bg-green-500 min-w-645 min-h-100 text-center p-50 m-20">width and hight</div>
+      <div class="bg-red-500 max-w-645 max-h-100 text-center p-50 m-20">width and hight</div>
+
+      <!--background-->
+      <div class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 h-50 text-white text-center">background</div>
+      <div class="bg-[url(https://plus.unsplash.com/premium_photo-1747633943306-0379c57c22dd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1fHx8ZW58MHx8fHx8)] h-[200px] w-[200px] bg-center m-20 pl-[20rem]"></div>
+
+      <!--border-->
+      <button class="bg-blue-500 m-20 h-20 w-40 rounded-md text-white">Click</button>
+      <button class="bg-blue-500 m-20 h-20 w-40 border-2 border-dashed border-black rounded-md outline-6 outline-red-500  text-white">Click</button>
+
+      <!--shadow-->
+      <button class="bg-green-500 h-20 w-40 rounded-md shadow-md shadow-slate-700/50">Submite</button>
+      <button class="bg-pink-500 h-20 w-40 rounded-md inset-shadow-2xs inset-shadow-blue-500 m-5">Submite</button>
+      <button class="bg-purple-500 h-20 w-40 rounded-md m-5 inste-ring-4">Submite</button>
+
+      <!--opacity-->
+      <div class="bg-yellow-600 rounded-md h-[100px] w-[200px] text-white p-24 m-52 opacity-50">Opacity</div>
+      <div class="bg-purple-600 rounded-md h-[100px] w-[200px] text-white p-24 m-52 opacity-(--my-opacity)">Opacity</div>
+      <div class="bg-yellow-950/50 border-2 border-green-500/50 rounded-md h-[100px] w-[200px] text-white p-24 m-52 ">Opacity</div>
+
+      <!--cursor and select-->
+      <button class="bg-lime-400 cursor-pointer mx-20 px-2 py-2 h-20 w-40 text-white rounded-md ">submite</button>
+      <button class="bg-cyan-900 cursor-progress mx-20 px-2 py-2 h-20 w-40 text-white rounded-md ">saving</button>
+      <button class="bg-green-800 cursor-wait mx-20 px-2 py-2 h-20 w-40 text-white rounded-md ">saving</button>
+
+      <p class="select-none text-2xl m-20">Lorem ipsum dolor sit amet.</p>
+      <p class="select-text text-2xl m-20">Lorem ipsum dolor sit amet.</p>
+      <p class="select-auto text-2xl m-20">Lorem ipsum dolor sit amet.</p>
+      <p class="select-all text-2xl m-20">Lorem ipsum dolor sit amet.</p>
+
+      <!--psedouclass-->
+      <button class="bg-red-500 h-20 w-40 m-20 px-2 py-2 rounded-md hover:opacity-80 hover:cursor-pointer">Click me</button>
+      <button class="bg-yellow-500 h-20 w-40 m-20 px-2 py-2 rounded-md active:opacity-80 active:cursor-pointer">Click me</button>
+      <button class="bg-green-500 h-20 w-40 m-20 px-2 py-2 rounded-md focus:opacity-80 focus:cursor-pointer">Click me</button>
+
+      <ul class="">
+        <li class="first:bg-slate-700 first:text-white odd:text-red-500 odd:bg-white even:bg-slate-700 even:text-blue-500">item 1</li>
+        <li class="first:bg-slate-700 first:text-white  odd:bg-white even:bg-slate-700 odd:text-red-500 even:text-blue-500">item 2</li>
+        <li class="first:bg-slate-700 first:text-white odd:bg-white even:bg-slate-700 odd:text-red-500 even:text-blue-500">item 3</li>
+        <li class="first:bg-slate-700 first:text-white odd:bg-white even:bg-slate-700  odd:text-red-500 even:text-blue-500">item 4</li>
+        <li class="first:bg-slate-700 first:text-white  odd:bg-white even:bg-slate-700 odd:text-red-500 even:text-blue-500">item 5</li>
+        <li class="first:bg-slate-700 first:text-white odd:bg-white even:bg-slate-700  odd:text-red-500 even:text-blue-500">item 6</li>
+      </ul>
+
+      <input type="email" disabled class="border-2 m-20 p-2 rounded-md focus:border-blue-500 focus:outline-none disabled:border-red-500" placeholder="Email">
+
+      <div class="group">
+        <h1 class="">Tittle</h1>
+        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat eligendi exercitationem soluta rem nobis! Praesentium ratione odio dicta rerum tempora.</p>
+      </div>
+    </body>
+</html>
