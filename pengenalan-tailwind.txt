@@ -79,3 +79,19 @@ tailwind menyediakan utility class select-* untuk mengontrol apakah teks bisa di
 Pseudo-class
 pseudo-class dalam tailwind memungkinkan kita mengubah tampilan elemen berdasarkan kondisi tertentu seperti hover,focus,first-child,last-child dan lain sebagainya
 tailwind menyediakan banyak utility class berbasis pseudo-class untuk meningkatkan interraktivitas tanpa menulis css tambahan  
+
+responsif Desain: Breakpoint dan Media Queries
+dalam disain responsif,breakpoint adalah batas ukuran layar dimana tata letak atau gaya elemen berubah agar sesuai dengan berbagai perangkat (mobile,tablet,desktop) 
+media queries adalah aturan css yang digunakan untuk menerapkan gaya berdasarkan ukuran layar 
+tailwind menyediakan sistem brekpoint berbasis mobile-first yang berarti semua gaya default berlaku untuk layar kecil 
+dan kita dapat menimpa gaya tersebut untuk layar yang lebih besar menggunakan breakpoint clasess 
+
+Columns
+column(khususnya dengan property css columns) adalah cara sederhana untuk membagi konten dalam satu elemen menjadi beberapa kolom biasanya digunakan puntuk tataletak teks atau elemen yang mengalir seperti majalah 
+tailwind menyediakan utility untuk bekerja dengan kolom menggunakan porpety css seperti colomns yang mendukung berbagai ukuran dan tataletak kolom
+
+Flexbox 
+flexbox(flexibel box layout) adalah model tata letak css yang dirancang untuk mengatur dan menyelaraskan elemen dalam satu dimensi baik secara horizontal(baris) maupun vertikal(kolom) 
+flexbox sangat efektif untuk menbuat tataletak yang fleksibel dan responsif terutama saat elemen memiliki ukuran dinamis atau  tidak diketahui sebelumnya
+flexbox mendukung berbagai property yntuk mengontrol distribusi ruang,penyelerasaan dan ururtan elemen dalam suatu kontainer
+tailwind menyediakan utility bawaaan untuk menerapkan tataletak flexbox dengan mudah tanpa menulis kode css manual

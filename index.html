@@ -26,7 +26,7 @@
     <div class="container bg-red-500 mx-auto text-center font-semibold">Ini Container!</div>
 
     <!--color-->
- <h1 class="text-3xl font-bold underline bg-background1 p-4 bottom-1 text-white border-slate-500 border-4   justify-center text-center ">
+ <h1 class="text-3xl font-bold underline bg-orange-500 p-4 bottom-1 text-white border-slate-500 border-4 text-center ">
         Hello world!
       </h1>
 
@@ -95,9 +95,70 @@
 
       <input type="email" disabled class="border-2 m-20 p-2 rounded-md focus:border-blue-500 focus:outline-none disabled:border-red-500" placeholder="Email">
 
-      <div class="group">
-        <h1 class="">Tittle</h1>
-        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat eligendi exercitationem soluta rem nobis! Praesentium ratione odio dicta rerum tempora.</p>
+      <div class="group flex justify-center items-center  m-4">
+        <h1 class="text-6xl text-black text-center">Tittle</h1>
+        <p class="text-xl text-slate-900 text-center m-10 group-hover:bg-slate-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat eligendi exercitationem soluta rem nobis! Praesentium ratione odio dicta rerum tempora.</p>
+        <button class="bg-indigo-700 rounded-md text-white w-40 h-20 text-center hover:opacity-80 hover:cursor-pointer">Hover me</button>
       </div>
+
+      <!--responsive desain-->
+      <h1 class="sm:text-yellow-600 sm:text-sm md:text-red-500 md:text-lg lg:text-cyan-800 lg:text-xl xl:text-2xl xl:text-purple-700 ">Responsive Desain</h1>
+
+      <div class="@container w-1/2">
+        <h1 class="text-center font-bold">Hello</h1>
+        <p class="text-center font-semibold @sm:@max-lg:bg-blue-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, minima omnis architecto cupiditate dolorum explicabo tempora ea similique temporibus sunt ad, inventore distinctio corporis repellendus minus deleniti, et aperiam illum!</p>
+      </div>
+
+      <!--column-->
+      <div class="columns-2 gap-10 m-8">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos doloremque sequi adipisci tenetur, magni sint! Necessitatibus repellendus praesentium modi, consequatur tempora nihil officiis ipsa molestias alias nobis odit libero vel officia, temporibus, eaque minima. Voluptatum soluta suscipit assumenda reiciendis voluptate eaque vero temporibus dolores debitis? Enim velit debitis sint accusamus!</p>
+        <p>hello Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ullam veniam veritatis nam totam non nesciunt itaque cum labore quod consequatur optio quam odit accusamus dolor, quidem corporis eligendi provident ut sequi tenetur? Harum ut earum porro? Repudiandae, nihil neque! Eaque accusamus nam quos labore. Dignissimos quos expedita ducimus omnis!</p>
+      </div>
+
+      <!--flexbox-->
+      <div class="m-20 flex-col">
+        <div class=" bg-red-500 text-white">conten 1</div>
+        <div class="bg-blue-500 text-white">conten 2</div>
+        <div class="bg-green-500 text-white">conten 3</div>
+      </div>
+
+       <div class="m-20 flex">
+        <div class=" bg-red-500 text-white">conten 1</div>
+        <div class="bg-blue-500 text-white">conten 2</div>
+        <div class="bg-green-500 text-white">conten 3</div>
+      </div>
+
+       <div class="m-20 flex-row">
+        <div class=" bg-red-500 text-white order-3">conten 1</div>
+        <div class="bg-blue-500 text-white order-2">conten 2</div>
+        <div class="bg-green-500 text-white order-1">conten 3</div>
+      </div>
+
+       <div class="m-20 flex">
+        <div class=" bg-red-500 text-white">conten 1</div>
+        <div class="bg-blue-500 text-white grow">conten 2</div>
+        <div class="bg-green-500 text-white">conten 3</div>
+      </div>
+
+      <div class="m-20 flex">
+        <div class=" bg-red-500 text-white w-[800px]">conten 1</div>
+        <div class="bg-blue-500 text-white w-[800px] shrink-0 ">conten 2</div>
+        <div class="bg-green-500 text-white w-[800px]">conten 3</div>
+      </div>
+
+    <div class="m-20 flex justify-around items-center bg-slate-500 h-[200px]">
+        <div class=" bg-red-500 text-white h-18">conten 1</div>
+        <div class="bg-blue-500 text-white h-18">conten 2</div>
+        <div class="bg-green-500 text-white h-18 ">conten 3</div>
+      </div>
+
+       <div class="m-20 flex-wrap flex justify-around items-center bg-slate-500 h-[200px]">
+        <div class=" bg-red-500 text-white h-18 w-2/4">conten 1</div>
+        <div class="bg-blue-500 text-white h-18 w-1/2">conten 2</div>
+        <div class="bg-green-500 text-white h-18 w-2/4">conten 3</div>
+      </div>
+
+
+
     </body>
 </html>
