@@ -97,7 +97,7 @@
 
       <div class="group flex justify-center items-center  m-4">
         <h1 class="text-6xl text-black text-center">Tittle</h1>
-        <p class="text-xl text-slate-900 text-center m-10 group-hover:bg-slate-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat eligendi exercitationem soluta rem nobis! Praesentium ratione odio dicta rerum tempora.</p>
+        <p class="text-xl text-slate-900 text-center  group-hover:bg-slate-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat eligendi exercitationem soluta rem nobis! Praesentium ratione odio dicta rerum tempora.</p>
         <button class="bg-indigo-700 rounded-md text-white w-40 h-20 text-center hover:opacity-80 hover:cursor-pointer">Hover me</button>
       </div>
 
@@ -158,7 +158,39 @@
         <div class="bg-green-500 text-white h-18 w-2/4">conten 3</div>
       </div>
 
+      <!--grid-->
+      <div class="m-20 grid grid-cols-2 gap-10 ">
+         <div class="bg-purple-500 text-white rounded-lg p-4 ">conten 1</div>
+        <div class="bg-purple-500 text-white rounded-lg p-4 col-span-3">conten 2</div>
+        <div class="bg-purple-500 text-white rounded-lg p-4">conten 3</div>
+        <div class="bg-purple-500 text-white rounded-lg p-4">conten 4</div>
+        <div class="bg-purple-500 text-white rounded-lg p-4">conten 5</div>
+        <div class="bg-purple-500 text-white rounded-lg p-4 col-span-2">conten 6</div>
+      </div>
 
+      <div class="m-20 grid grid-flow-col grid-rows-3 gap-4 ">
+         <div class="bg-purple-500 text-white rounded-lg p-4 ">conten 1</div>
+        <div class="bg-purple-500 text-white rounded-lg p-4 ">conten 2</div>
+        <div class="bg-purple-500 text-white rounded-lg p-4">conten 3</div>
+        <div class="bg-purple-500 text-white rounded-lg p-4 row-span-3">conten 4</div>
+        <div class="bg-purple-500 text-white rounded-lg p-4">conten 5</div>
+        <div class="bg-purple-500 text-white rounded-lg p-4 row-span-2">conten 6</div>
+      </div>
 
+      <!--transition-->
+      <button class="bg-lime-400 text-white p-5 m-20 rounded-lg text-xl cursor-pointer hover:bg-lime-600 hover:text-5xl duration-150 delay-300 ease-in-out ">Hover Me</button>
+
+      <!--transfrom-->
+      <button class="bg-emerald-300 text-xl p-4 text-white rounded-lg hover:rotate-[360deg] duration-1000 delay-150 ease-in-out cursor-pointer">Hover Me</button>
+      <button class="bg-sky-400 text-xl p-4 m-10 text-white rounded-lg hover:translate-x-30 duration-1000 delay-150 ease-in-out cursor-pointer">Hover Me</button>
+      <button class="bg-fuchsia-800 text-xl p-4 m-10 text-white rounded-lg focus:skew-x-20 duration-1000 delay-150 ease-in-out cursor-pointer">Hover Me</button>
+      <button class="bg-pink-700 text-xl p-4 m-10 text-white rounded-lg hover:scale-150 duration-1000 delay-150 ease-in-out cursor-pointer">Hover Me</button>
+
+      <!--animation-->
+      
+      <button class="m-10 bg-orange-400 text-white text-lg rounded-full w-40 h-40 outline-4 outline-zinc-700 hover:animate-spin cursor-pointer">Submite</button>
+      <button class="m-10 bg-teal-300 text-white text-lg rounded-full w-40 h-40 outline-4 outline-zinc-700 hover:animate-ping cursor-pointer">Submite</button>
     </body>
+    <button class="m-10 bg-sky-300 text-white text-lg rounded-full w-40 h-40 outline-4 outline-zinc-700 hover:animate-pulse cursor-pointer">Submite</button>
+    <button class="m-10 bg-violet-300 text-white text-lg rounded-full w-40 h-40 outline-4 outline-zinc-700 hover:animate-bounce cursor-pointer">Submite</button>
 </html>

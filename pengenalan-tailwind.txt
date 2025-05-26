@@ -95,3 +95,43 @@ flexbox(flexibel box layout) adalah model tata letak css yang dirancang untuk me
 flexbox sangat efektif untuk menbuat tataletak yang fleksibel dan responsif terutama saat elemen memiliki ukuran dinamis atau  tidak diketahui sebelumnya
 flexbox mendukung berbagai property yntuk mengontrol distribusi ruang,penyelerasaan dan ururtan elemen dalam suatu kontainer
 tailwind menyediakan utility bawaaan untuk menerapkan tataletak flexbox dengan mudah tanpa menulis kode css manual
+
+Grid 
+grid layout adalah sistem tat letak dua dimensi yang memungkinkan kita mengatur elemen secara horizontal(baris) dan vertikal(kolom) 
+grid memberikan kontrol penuh untuk membuat tataletak yang kompleks dan presisi tinggi seperti dashbord,galeri atau halam multikolom
+tailwind menyediakan utility class yang memudahkan implementasi sistem css grid tanpa menulis css manual, dengan grid kita bisa membuat tataletak dua dimensi untuk mengatur elemen dalam baris dan kolom secara presisi.
+
+Transition
+transition adlah property css yang digunakana untuk membuat perubahan antara dua kondisi elemen yang terjadi secara halus dalam periode waktu tertentu 
+transition memungkinkan animasi sederhana sperti perubahan warna,ukuran,posisi atau transparansi tanpa perlu menggunakan animasi kompleks
+tailwind menyediakan utility class untuk mengatur transition dengan cepat.
+
+transition : menambahkan efek transition ke lemen 
+transition-none : menghapus semua efek transition 
+transition-all : menganimasikan semua property css
+transition-color : menganimasikan perubahan warna 
+transition-opacity : menganimasikan perubahan opacity 
+transition-transfrom : menganimasikan perubahan transfrom
+duration-* : menentukan durasi animas(duration-300)
+ease-* : menentukan percepatan animasi(ease-in)
+delay-* : menentukan jeda sebelum animasi di mulai
+
+Transfrom 
+transfrom adalah property css yang digunakan untuk mengubah tampilan elemen secara geometris 
+seeprti memindahkan,memutar,menskala dan memiringkan elemen  transfrom bekerja langsung pada elemen tanpa mempengaruhi tataletak elemen lainnya
+tailwind menyediakan utilty class untuk menerapkan transformasi dengan mudah 
+
+transfrom : mengaktifkan transfrom pada elemen
+transfrom-none : menghapus transfromasi pada elemen
+translate-x-* : memindahkan elemen secara horizontal
+translate-y-* : memindahkan elemen secara vertikal
+rotate-* : memutar elemen(rotate-45)
+scale-* : menubah ukuran elemen(scale-100)
+skewx-* / skew-y-* :memiringkan elemen pada sumbu x atau y 
+origin-* : menentukan titik asla transformasi
+
+Animation and Keyframes
+animation adalah fitur css yang digunakn untuk membuat elemen bergerak atau mengalami perubahan visual secara berurutan selama periode waktu tertentu 
+animasi dapat diginakan untuk meningkatkan pengalaman user dengan membuat antarmuka lebih dinamis 
+keyframe adlah aturan css yang digunakan untuk menentukan tahap-tahap perubahan selama animasi berlangsung 
+dengan keyframe anda bisa mendefinisikan bagaimana elemen berubah pada presentase waktu terentu selama animasi.  
